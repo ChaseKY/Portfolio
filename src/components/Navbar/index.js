@@ -6,7 +6,7 @@ import { Navbar as NavB } from 'react-bootstrap';
 function Navbar(props) {
   return (
     <div>
-      <NavB id="navbar" bg="dark" variant="dark">
+      <NavB className="navbar" bg="dark" variant="dark">
         <NavB.Brand className="btn">Chase Young</NavB.Brand>
         <Nav className="me-auto">
           <Button className="btn" variant="info" onClick={() => props.setCurrent(0)}>
@@ -18,12 +18,6 @@ function Navbar(props) {
           <Button className="btn" variant="info" onClick={() => props.setCurrent(2)}>
             Resume
           </Button>
-          <Nav.Link className="pageLink" href="https://github.com/ChaseKY">
-            Github
-          </Nav.Link>
-          <Nav.Link className="pageLink" href="https://www.linkedin.com/in/chase-young-a3a27722a/">
-            LinkedIn
-          </Nav.Link>
         </Nav>
       </NavB>
     </div>

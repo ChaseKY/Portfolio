@@ -1,4 +1,8 @@
-#navbar {
+body {
+  background-color: rgb(151, 210, 235);
+}
+
+.navbar {
   display: flex;
 }
 
@@ -8,7 +12,8 @@
 }
 
 .pageLink {
-  justify-items: right;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
@@ -23,6 +28,12 @@
 .card {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-width: 5px;
+  border-color: aliceblue;
+}
+
+.contact {
+  margin-left: 20px;
 }

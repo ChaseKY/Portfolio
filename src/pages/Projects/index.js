@@ -10,21 +10,30 @@ function Projects() {
           <Card.Body>
             <Card.Title>Film Finder</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of the card's
-              content.
+              Film Finder was created along with 2 other peers for our first group project during
+              our coding bootcamp. It gives you a short list of movies based on the preferences you
+              choose.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button href="https://chaseky.github.io/FilmFinder/" variant="primary">
+              Go to app
+            </Button>
           </Card.Body>
         </Card>
         <Card className="card" style={{ width: '18rem', backgroundColor: 'lightblue' }}>
-          <Card.Img className="image" variant="top" src="/logo-text.png" />
+          <Card.Img
+            className="image"
+            variant="top"
+            src="https://pngimg.com/uploads/github/github_PNG83.png"
+          />
           <Card.Body>
-            <Card.Title>Hamper</Card.Title>
+            <Card.Title>Github Finder</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of the card's
-              content.
+              The Github Finder is a simple github profile search application that I created while
+              taking one of Brad Traversy's Udemy courses.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button href="https://github-finder-chaseky.vercel.app/" variant="primary">
+              Go to app
+            </Button>
           </Card.Body>
         </Card>
         <Card className="card" style={{ width: '18rem', backgroundColor: 'lightblue' }}>
@@ -36,8 +45,9 @@ function Projects() {
           <Card.Body>
             <Card.Title>Daily Planner</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of the card's
-              content.
+              I created the Daily Planner app while I was in my coding bootcamp. It is able to
+              determine the time of day and use this to color each time slot depending on if it is
+              that current hour, a hour that has already passed, or an hour coming up.
             </Card.Text>
             <Button href="https://chaseky.github.io/dailyPlanner/" variant="primary">
               Go to app
