@@ -34,6 +34,15 @@ body {
   border-color: aliceblue;
 }
 
+.picContainer {
+  display: flex;
+  align-items: center;
+}
+
+.picItem {
+  float: left;
+}
+
 .bioContainer {
   display: block;
   margin-left: 20vw;

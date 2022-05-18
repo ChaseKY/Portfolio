@@ -4,9 +4,19 @@ import { Card } from 'react-bootstrap';
 function About() {
   return (
     <div>
-      <Card style={{ width: '18rem', borderRadius: '10px' }}>
-        <Card.Img src="profile-pic.jpg" />
-      </Card>
+      <section className="picContainer">
+        <img
+          className="picItem"
+          src="javascript-logo.png"
+          style={{ height: '20vh', width: 'auto', padding: '0' }}
+        />
+        <img className="picItem" src="mongo-logo.png" style={{ height: '20vh', width: 'auto' }} />
+        <Card className="picItem" style={{ width: '18rem', borderRadius: '10px' }}>
+          <Card.Img src="profile-pic.jpg" />
+        </Card>
+        <img className="picItem" src="react-logo.png" style={{ height: '20vh', width: 'auto' }} />
+        <img className="picItem" src="css-logo.png" style={{ height: '20vh', width: 'auto' }} />
+      </section>
       <br />
       <section className="bioContainer">
         <p className="bioText">
