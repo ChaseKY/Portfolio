@@ -34,6 +34,24 @@ body {
   border-color: aliceblue;
 }
 
+.bioContainer {
+  display: block;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 10vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  background-color: lightblue;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: aliceblue;
+  border-style: solid;
+}
+
+.bioText {
+  margin: 5px;
+}
+
 .contact {
   margin-left: 20px;
 }

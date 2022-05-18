@@ -15,7 +15,7 @@ function Navbar(props) {
           <Button className="btn" variant="info" onClick={() => props.setCurrent(1)}>
             Projects
           </Button>
-          <Button className="btn" variant="info" onClick={() => props.setCurrent(2)}>
+          <Button className="btn" variant="info" href="resume.pdf">
             Resume
           </Button>
         </Nav>
@@ -25,3 +25,4 @@ function Navbar(props) {
 }
 
 export default Navbar;
+//onClick={() => props.setCurrent(2)}
